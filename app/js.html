@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./temp/styles/style.css">
+</head>
+<body>
+    <h1>JavScript Questions</h1>
+    <h2>Questions</h2>
+        <!-- Control buttons -->
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('lang')"> JS Language</button>
+            <button class="btn" onclick="filterSelection('variables')"> Values and Variables</button>
+            <button class="btn" onclick="filterSelection('control-logic')"> Controlling Program Logic</button>
+            <button class="btn" onclick="filterSelection('arrays')"> Arrays</button>
+            <button class="btn" onclick="filterSelection('object')"> Objects</button>
+            <button class="btn" onclick="filterSelection('loops')"> Loops</button>
+            <button class="btn" onclick="filterSelection('function')"> Functions</button>
+            <button class="btn" onclick="filterSelection('this-key')"> This</button>
+            <button class="btn" onclick="filterSelection('array-methods')"> Array Methods</button>
+            <button class="btn" onclick="filterSelection('object-methods')"> Object Methods</button>
+            <button class="btn" onclick="filterSelection('scope')"> Scope</button>
+            <button class="btn" onclick="filterSelection('hoisting')"> Hoisting</button>
+            <button class="btn" onclick="filterSelection('prototypes')"> Prototypes</button>
+            <button class="btn" onclick="filterSelection('constructor')"> Constructors</button>
+            <button class="btn" onclick="filterSelection('factory')"> Factory</button>
+            <button class="btn" onclick="filterSelection('inheritance')"> Inheritance</button>
+            <button class="btn" onclick="filterSelection('obj-prop')"> Object Porperties</button>
+            <button class="btn" onclick="filterSelection('dom-manip')"> DOM Manipultaion</button>
+            <button class="btn" onclick="filterSelection('dom-events')"> DOM Events</button>
+            <button class="btn" onclick="filterSelection('es6')"> ES 6</button>
+            <button class="btn" onclick="filterSelection('classes')"> Classes</button>
+            <button class="btn" onclick="filterSelection('error-handling')"> Error Handling</button>
+            <button class="btn" onclick="filterSelection('promises')"> Promises</button>
+            <button class="btn" onclick="filterSelection('callback')"> Callbacks</button>
+            <button class="btn" onclick="filterSelection('asunc-await')"> Async/Await</button>
+            <button class="btn" onclick="filterSelection('generators')"> Generators</button>
+            <button class="btn" onclick="filterSelection('modules')"> Modules</button>
+            <button class="btn" onclick="filterSelection('maps')"> Maps</button>
+            <button class="btn" onclick="filterSelection('sets')"> Sets</button>
+            <button class="btn" onclick="filterSelection('refelct-api')"> Reflect API</button>
+            <button class="btn" onclick="filterSelection('proxy-api')"> Proxy API</button>
+            <button class="btn" onclick="filterSelection('js-enigne')"> JS Engine</button>
+            <button class="btn" onclick="filterSelection('keywords')">Keywords</button>
+            <button class="btn" onclick="filterSelection('getter-setter')">Getters Setters</button>
+            <button class="btn" onclick="filterSelection('oop')"> Object Oriented Programming</button>
+            <button class="btn" onclick="filterSelection('design-patterns')"> Design Patterns</button>
+            <button class="btn" onclick="filterSelection('best-practices')"> Best Practies </button>
+            <button class="btn" onclick="filterSelection('diff-btwn')"> Difference Between </button>
+        </div>
+        
+        <ol class="container questions">
+            <li class="filterDiv lang es6">What are the new features in ES 6?</li>
+            <li class="filterDiv dom-events">What is Event Bubbling?</li>
+            <li class="filterDiv dom-events">What is Event Capturing?</li>
+            <li class="filterDiv dom-events">Difference between Event Bubbling and Event Capturing?</li>
+            <li class="filterDiv oop">What is Object Oriented Programming Language?</li>
+            <li class="filterDiv oop">What is the advantage of OOP over Functional Programming language</li>
+            <li class="filterDiv oop">What is encapsulation</li>
+            <li class="filterDiv oop">What is abstraction</li>
+            <li class="filterDiv oop">What is Polymorphism</li>
+            <li class="filterDiv oop">What is inheritance</li>
+            <li class="filterDiv oop object">What is object</li>
+            <li class="filterDiv oop object">What are different ways to create object</li>
+            <li class="filterDiv oop object">What are methods, properties, key, value, members in object</li>
+            <li class="filterDiv oop object">What is object Literal</li>
+            <li class="filterDiv oop object">What is Factory</li>
+            <li class="filterDiv oop object">What is Constructor</li>
+            <li class="filterDiv oop object best-practices">When to Prefer factories or constructors over objects</li>
+            <li class="filterDiv oop object">Factories vs Constructor</li>
+            <li class="filterDiv oop object prototypes">What is prototype?</li>
+            <li class="filterDiv oop object prototypes">What is prototypical inheritance</li>
+            <li class="filterDiv oop object prototypes classes">Difference between prototypical inheritance and class based inheritance</li>
+            <li class="filterDiv oop object this-key keywords">What is this?</li>
+            <li class="filterDiv lang">Why should we avoid using global variable when possible?</li>
+            <li class="filterDiv oop object keywords">What does the "new" operator do?</li>
+            <li class="filterDiv oop object variables">How is primitive different from objects</li>
+            <li class="filterDiv oop object variables">Are objects in JavaScript dynamic? Justify </li>
+            <li class="filterDiv oop object best-practices">How is bracket notation advantageous than dot notation</li>
+
+            <li class="filterDiv scope">What is Lexical scope</li>
+            <li class="filterDiv scope">What is hositing?</li>
+            <li class="filterDiv function scope">What is Closure?</li>
+            <li class="filterDiv function">What is IIFE?</li>
+
+            <li class="filterDiv array-methods">Explain Array.every()</li>
+            <li class="filterDiv array-methods">Explain Array.filter()</li>
+            <li class="filterDiv array-methods">Explain Array.forEach()</li>
+            <li class="filterDiv array-methods">Explain Array.from()</li>
+            <li class="filterDiv array-methods">Explain Array.find()</li>
+            <li class="filterDiv array-methods">Explain Array.find()</li>
+            <li class="filterDiv array-methods">Explain Array.fill()</li>
+            <li class="filterDiv array-methods">Explain Array.Map()</li>
+            <li class="filterDiv array-methods">Explain Array.Reduce()</li>
+            <li class="filterDiv array-methods">Explain Array.Some()</li>
+            <li class="filterDiv array-methods">Explain Array.Push()</li>
+            <li class="filterDiv array-methods">Explain Array.Pop()</li>
+            <li class="filterDiv array-methods">Explain Array.Shift()</li>
+            <li class="filterDiv array-methods">Explain Array.Unshift()</li>
+            <li class="filterDiv array-methods">Explain Array.concat()</li>
+            <li class="filterDiv array-methods">Explain Array.includes()</li>
+            <li class="filterDiv array-methods">Explain Array.includes()</li>
+            <li class="filterDiv array-methods">Explain Array.isArray()</li>
+            <li class="filterDiv array-methods">Explain Array.join()</li>
+            <li class="filterDiv array-methods">Explain Array.keys()</li>
+            <li class="filterDiv array-methods">Explain Array.lastIndexOf()</li>
+            <li class="filterDiv array-methods">Explain Array.map()</li>
+            <li class="filterDiv array-methods">Explain Array.reduce()</li>
+            <li class="filterDiv array-methods">Explain Array.reverse()</li>
+            <li class="filterDiv array-methods">Explain Array.slice()</li>
+            <li class="filterDiv array-methods">Explain Array.splice()</li>
+            <li class="filterDiv array-methods">Explain Array.some()</li>
+            <li class="filterDiv array-methods">Explain Array.sort()</li>            
+            <li class="filterDiv array-methods">Explain Array.toString()</li>
+            <li class="filterDiv array-methods">Explain Array.valueOf()</li>
+
+            <li class="filterDiv lang es6">What is transpiling in JS?</li>
+            <li class="filterDiv lang es6">What is pollyfilling in JS</li>
+            
+            <li class="filterDiv lang variables scope">What is the difference between block scope and function scope</li>
+            <li class="filterDiv lang variables scope">What is scope in JS?</li>
+            <li class="filterDiv es6 variables scope">What is Let ?</li>
+            <li class="filterDiv es6 variables scope">What is const?</li>
+            <li class="filterDiv es6 diff-btwn variables scope">What is difference between let and const?</li>
+            <li class="filterDiv es6 diff-btwn variables scope">What is difference between var and let?</li>
+            <li class="filterDiv es6 scope lang">What are blocks in JS?</li>
+            <li class="filterDiv function ">What are IIFEs?</li>
+            <li class="filterDiv es6 ">What are new string methods in ES6?</li>
+            <li class="filterDiv es6 ">What is destructing</li>
+            <li class="filterDiv es6 array-methods">What are new array methods?</li>
+            <li class="filterDiv es6 ">What is spread operator?</li>
+            <li class="filterDiv es6 ">What is rest parameter?</li>
+            <li class="filterDiv es6 ">What is default parameter?</li>
+            <li class="filterDiv es6 ">What are maps in ES 6?</li>
+            <li class="filterDiv es6 ">What are classes in ES 6?</li>
+            <li class="filterDiv es6 ">What are sub-classes in ES 6?</li>
+            <li class="filterDiv es6 diff-btwn">What is the difference between classes and subclasses ?</li>
+            <li class="filterDiv es6 variables">What will be the value of 4 problems</li>
+            <li class="filterDiv lang">What is temporal dead zone?</li>
+            <li class="filterDiv es6 array-methods">What is array.map()?</li>
+            <li class="filterDiv es6 ">What are arrow functions?</li>
+            <li class="filterDiv diff-btwn">What is the difference between arrow function and normal function</li>
+        
+
+        </ol>
+
+    <h3>Answers</h3>
+
+    <script src="./temp/scripts/app.js"></script>
+</body>
+</html>
